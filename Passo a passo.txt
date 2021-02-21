@@ -1,0 +1,2 @@
+Abra o terminal e vá para a pasta do projeto
+digite: python -m unittest -v
