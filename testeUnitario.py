@@ -1,5 +1,5 @@
 import unittest
-from main import calculadora
+from main import calculadora, calculos
 
 class TestCalculadora(unittest.TestCase):
 
@@ -14,7 +14,13 @@ class TestCalculadora(unittest.TestCase):
 
     def test_divisao(self):
         self.assertEqual(calculadora.divisao(25 , 5), 5)
+        
+class TestCalculos(unittest.TestCase):
 
+    def test_deltaCalc(self):
+        self.assertEqual(calculos.deltaCalc(1 ,2, -3), 16)
+
+    
 if __name__ == '__main__':
     unittest.main()
 

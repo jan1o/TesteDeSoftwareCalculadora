@@ -1,4 +1,4 @@
-
+import math
 
 class main:
     def __init__(self):
@@ -35,4 +35,18 @@ class calculadora:
         resultado = a / b
         return resultado
 
+class calculos:
+    
+    def deltaCalc(a, b ,c):
+        delta = calculadora.subtracao(calculadora.multiplicacao(b, b), calculadora.multiplicacao(calculadora.multiplicacao(4, a), c))
+        return delta
+    
+    def bhaskara(a, b, c, delta):
+        x1 = calculadora.divisao(calculadora.soma(calculadora.multiplicacao(b, -1), math.sqrt(delta)), calculadora.multiplicacao(2, a))
+        x2 = calculadora.divisao(calculadora.subtracao(calculadora.multiplicacao(b, -1), math.sqrt(delta)), calculadora.multiplicacao(2, a))
+        resultado = [x1, x2]
+        return resultado
 
+    
+#delta = calculos.deltaCalc(1, 2, -3)   
+#print(calculos.bhaskara(1,2,-3, delta))
