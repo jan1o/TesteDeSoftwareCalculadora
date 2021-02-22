@@ -47,6 +47,21 @@ class calculos:
         resultado = [x1, x2]
         return resultado
 
+class calcAreas:
+	def areaQuadrado(lado):
+		area = calculadora.multiplicacao(lado, lado)
+		return area
+
+	def areaRetangulo(base, altura):
+		area = calculadora.multiplicacao(base, altura)
+		return area
+
+	def areaTriangulo(base, altura):
+		area = calculadora.multiplicacao(base, altura)
+		area = calculadora.divisao(area, 2)
+		return area
+
+
     
 #delta = calculos.deltaCalc(1, 2, -3)   
 #print(calculos.bhaskara(1,2,-3, delta))
