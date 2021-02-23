@@ -1,21 +1,6 @@
 # Cobertura de testes
 
-Para realizar os teste de cobertura, bem como os seus relatórios, foi usado o pacote [Coverage](https://pypi.org/project/coverage/) versão 5.4 (neste exemplo), pacote built-in do python, unido ao [Unittest](https://docs.python.org/3/library/unittest.html).
-
-## Instalando as ferramentas
-Para instalar o Unittest:  
-```bash
-$ pip install unittest
-```
-Para instalar o Coverage (caso não apareça na sua instalação).
-```bash
-$ pip install coverage
-```
-Ou volte para a raiz do projeto e execute o comando:
-```bash
-$ pip install -r requirements.txt
-```
-Com esse comando todos pacotes gerados durante a construção desse exemplo serão instalados.  
+Para realizar os teste de cobertura, bem como os seus relatórios, foi usado o pacote [Coverage](https://pypi.org/project/coverage/) versão 5.4 (neste exemplo), pacote built-in do python, unido ao [Unittest](https://docs.python.org/3/library/unittest.html).  
 
 ## Verificando a cobertura dos testes
 
