@@ -1,4 +1,6 @@
 import math
+from math import sqrt
+from math import pow as pow
 
 class main:
     def __init__(self):
@@ -61,7 +63,27 @@ class calcAreas:
 		area = calculadora.divisao(area, 2)
 		return area
 
+class distancia:
+    def distanciaPontosReta(x1, y1, x2, y2):
+        calc1 = pow(calculadora.subtracao(x2,x1),2)
+        calc2 =  pow(calculadora.subtracao(y2,y1),2)
+        dist = calculadora.soma(calc1,calc2)
+        distAB = sqrt(dist)
+        return distAB
 
-    
-#delta = calculos.deltaCalc(1, 2, -3)   
-#print(calculos.bhaskara(1,2,-3, delta))
+    def distanciaPontosEspaco(x1, y1, z1, x2, y2, z2):
+        calc1 = pow(calculadora.subtracao(x2,x1),2)
+        calc2 = pow(calculadora.subtracao(y2,y1),2)
+        calc3 = pow(calculadora.subtracao(z2,z1),2)
+        dist = calculadora.soma(calculadora.soma(calc1,calc2),calc3)
+        distABC = sqrt(dist)
+        return distABC
+        
+
+# delta = calculos.deltaCalc(1, 2, -3)   
+# print(calculos.bhaskara(1,2,-3, delta))
+
+# A = (-1,-2) e B = (-3,-4)
+print(distancia.distanciaPontosReta(-1, -2, -3, -4))
+# A = (4, -8, -9) e B = (2, -3, -5).
+print(distancia.distanciaPontosEspaco(4, -8, -9, 2, -3, -5))

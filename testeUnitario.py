@@ -1,5 +1,5 @@
 import unittest
-from main import calculadora, calculos
+from main import calculadora, calculos, distancia
 
 class TestCalculadora(unittest.TestCase):
 
@@ -19,6 +19,14 @@ class TestCalculos(unittest.TestCase):
 
     def test_deltaCalc(self):
         self.assertEqual(calculos.deltaCalc(1 ,2, -3), 16)
+
+class TestDistancia(unittest.TestCase):
+
+    def test_distReta(self):
+        self.assertEqual(distancia.distanciaPontosReta(-1, -2, -3, -4), 2.8284271247461903)
+        
+    def test_distEspaco(self):
+        self.assertEqual(distancia.distanciaPontosEspaco(4, -8, -9, 2, -3, -5), 6.708203932499369)
 
     
 if __name__ == '__main__':
