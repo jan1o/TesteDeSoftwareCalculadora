@@ -23,8 +23,7 @@ class calculadora:
 
 class calculos:
     def deltaCalc(a, b, c):
-        delta = calculadora.subtracao(calculadora.multiplicacao(
-            b, b), calculadora.multiplicacao(calculadora.multiplicacao(4, a), c))
+        delta = (b * b) - ((4 * a) * c)
         return delta
 
     def bhaskara(a, b, c, delta):
@@ -66,3 +65,10 @@ class distancia:
         dist = calculadora.soma(calculadora.soma(calc1, calc2), calc3)
         distABC = sqrt(dist)
         return distABC
+
+#Esse calculo não existe e é apenas uma forma de simular uma integração entre classes e métodos para se testar
+class baseIntegracao:
+    def quadradoBhaskara(quadrado, x1Bhaskara):
+        return quadrado * x1Bhaskara
+        
+    
