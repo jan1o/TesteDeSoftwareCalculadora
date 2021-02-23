@@ -2,6 +2,21 @@
 
 ### Pequeno projeto pra disciplina de Testes de Software, do curso de BSI/UFRN CERES, Caicó.  
 
+## Instalando as ferramentas necessárias
+Para instalar o Unittest:  
+```bash
+$ pip install unittest
+```
+Para instalar o Coverage (caso não apareça na sua instalação).
+```bash
+$ pip install coverage
+```
+Ou volte para a raiz do projeto e execute o comando:
+```bash
+$ pip install -r requirements.txt
+```
+Com esse comando todos pacotes gerados durante a construção desse exemplo serão instalados.  
+
 ## Resumo do projeto
 Este projeto foi desenvolvido usando a linguagem python, em sua versão 3.*, usamos o framework de testes built-in do python, o Unittest e também o framework de cobertura de testes, Coverage.  
 
