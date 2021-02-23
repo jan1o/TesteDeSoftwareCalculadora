@@ -1,5 +1,4 @@
 import unittest
-# from main import calculos, calcAreas, distancia
 import main
 
 
@@ -31,3 +30,6 @@ class TestDistancia(unittest.TestCase):
     def test_distEspaco(self):
         self.assertEqual(main.distancia.distanciaPontosEspaco(4, -8, -9, 2, -3, -5), 6.708203932499369)
 
+
+if __name__ == '__main__':
+    unittest.main()

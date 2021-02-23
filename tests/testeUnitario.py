@@ -1,6 +1,5 @@
 import unittest
 import main
-# from main import calculadora, calculos
 
 
 class TestCalculadora(unittest.TestCase):
