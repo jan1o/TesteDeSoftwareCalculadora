@@ -8,6 +8,12 @@ Este projeto foi desenvolvido usando a linguagem python, em sua versão 3.*, usa
 ## Descrição
 O projeto nada mais é do que um conjunto de calculos que podem ser acessado através de suas respectivas classes dentro de um ```main.py```.
 
+## Explicações  
+Na pasta [docs/](https://github.com/jan1o/TesteDeSoftwareCalculadora/tree/master/docs) estão os arquivos que explicam algumas etapas do nosso projeto quanto aos testes e cobertura de códuigo, sendo eles:  
+- [COBERTURA_TESTES.md](https://github.com/jan1o/TesteDeSoftwareCalculadora/blob/master/docs/COBERTURA_TESTES.md)
+- [TESTE_INTEGRACAO.md](https://github.com/jan1o/TesteDeSoftwareCalculadora/blob/master/docs/TESTE_INTEGRACAO.md)
+- [TESTE_UNIDADE.md](https://github.com/jan1o/TesteDeSoftwareCalculadora/blob/master/docs/TESTE_UNIDADE.md)
+
 Nossas principais referências para esse projeto foram:
 
 - [Unittest](https://docs.python.org/pt-br/3/library/unittest.html)  
@@ -15,4 +21,4 @@ Nossas principais referências para esse projeto foram:
 - [Testes com Python](https://lucasmagnum.gitbooks.io/testes-com-python/content/handson/coveragemd.html)  
 - [Coverage Question](https://coverage.readthedocs.io/en/coverage-5.4/)  
 
-Build with 💗💓
+Builded with love 💗💓
